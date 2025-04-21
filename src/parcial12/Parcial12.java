@@ -49,9 +49,7 @@ public class Parcial12 {
                     byte p=scaner.nextByte();
                     int i = p-1;
                     System.out.println(nombre.get(i));
-                        
-                    }
-                    
+                                           
                 case 5:
                    for (int f = 0; f < matriz.length; f++){
             for (int c = 0; c < matriz.length; c++) {
