@@ -46,7 +46,11 @@ public class Parcial12 {
                     }                
                 case 4:
                     System.out.println("digite la posicion a imprimir:");
-                    byte i=scaner.nextByte();
+                    byte p=scaner.nextByte();
+                    int i = p-1;
+                    System.out.println(nombre.get(i));
+                        
+                    }
                     
                 case 5:
                    for (int f = 0; f < matriz.length; f++){
